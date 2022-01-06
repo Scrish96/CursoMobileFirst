@@ -1,1 +1,33 @@
- 
+/*
+  1. Posicionamiento(position:fix, relative,etc)
+  2. Modelo de Caja (margin, padding, width, height; Box Model)
+  3. Tipografía (Fuentes, tamaño y grosor de letras)
+  4. Tema visuales (box-shadow, border radius)
+  5. Otros
+*/
+:root
+{
+  /*Colores*/
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D4;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --grey: #BABABA;
+  --off-white: #FAF8F7;
+  --just-white: #FFFFFF;
+}
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
