@@ -80,10 +80,9 @@ header img
 .header--title-container .header--button
 {
   position:absolute;
-  top:270px;
+  top:calc(100% - 24px);
   left: calc(50% - 115px);
   display:block;
-  margin-top: 35px;
   padding: 15px;
   width: 230px;
   height:48px;
@@ -98,7 +97,7 @@ header img
   font-size: 1.4rem;
   font-weight:bold;
   text-decoration: none;
-  color: var(--black)
+  color: var(--black);
 }
 
 .header--button span
@@ -107,6 +106,6 @@ header img
   width: 13px;
   height: 8px;
   margin-left:10px;
-  background-image: url("./assets/icons/arrow_down.png");
+  background-image: url("./assets/icons/arrow_down.svg");
 
 }
