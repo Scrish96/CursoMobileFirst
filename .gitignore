@@ -1,29 +1,29 @@
 # Ignora los archivos de imagenes
-*.png
-*.svg
-*.jpeg
-*.jpg
+# *.png
+# *.svg
+# *.jpeg
+# *.jpg
 
 # Ignora los archivos de video
-*.wmv
-*.mp4
-*.ogg
+# *.wmv
+# *.mp4
+# *.ogg
 
 # Ignora los archivos de musica
-*.mp3
-*.wma
+# *.mp3
+# *.wma
 
 # Ignora archivos del sistema Mac 
-.DS_store
+# .DS_store
 
 # Ignora la carpeta node_modules
-node_modules
+# node_modules
 
 # Ignora todos los archivos de texto
-*.txt
+# *.txt
 
 # Ignora los archivos relacionados a API keys
-.env
+# .env
 
 # Ignora archivos de configuración SASS
-.sass-cache
+# .sass-cache
